@@ -1,0 +1,93 @@
+* {
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+}
+body {
+font-family: sans-serif;
+background: #f1eded;
+}
+.MDHL {
+background-color: #F8E12E;
+text-align: center;
+}
+nav {
+background: #211915;
+padding: 5px 20px;
+}
+.list-none {
+list-style-type: none;
+}
+.item a {
+color: white;
+text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+a:hover {
+text-decoration: underline;
+}
+.menu {
+    text-align: center;
+}
+.menu li {
+font-size: 16px;
+padding: 15px 10px;
+white-space: nowrap;
+}
+.item a[href="#"] {
+    font-weight: bold;
+}
+.item {
+display: inline-block;
+width: auto;
+}
+
+
+.title{
+    text-align: center;
+    background-color: #5FA199;
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+    padding: 1rem;
+}
+
+.logo {
+    width: 15%;
+    margin: 2rem;
+}
+
+section {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 5rem;
+    padding-left: 5rem;
+    width: 75%;
+}
+
+section p {
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+}
+
+
+.list-decimal {
+    list-style-type: decimal!important;
+}
+
+.list-lower-alpha {
+    list-style-type: lower-alpha!important;
+}
+
+.list-circle {
+    list-style-type: circle!important;
+}
+
+table, th, td {
+    border: 1px solid;
+}
+table {
+  padding: 20px;
+}
