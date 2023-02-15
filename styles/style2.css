@@ -86,8 +86,15 @@ section p {
 }
 
 table, th, td {
-    border: 1px solid;
+    padding: 10px!important;
 }
+
 table {
-  padding: 20px;
+    margin: 10px!important;
+}
+.contact_mr {
+    margin: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
