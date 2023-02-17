@@ -33,124 +33,126 @@
 
        <img class="logo" src="assets/logo_mighty_ducks.png" alt="logo_mighty_ducks" width="100">
         <section class="register">
-            <form action="">
+            <form action="show_data.html">
                 <legend>Registration Form</legend>
                 <fieldset>
                 <div class="form-group">
                     <label for="name">Player's First Name: </label>
-                    <input type="text" class="form-control" id="name">
+                    <input type="text" class="form-control" id="name" name="name" required>
+                    <p>(required field *)</p>
                 </div>
                 <div class="form-group">
-                    <label for="name">Last Name: </label>
-                    <input type="text" class="form-control" id="name">
+                    <label for="lastname">Last Name: </label>
+                    <input type="text" class="form-control" id="lastname" name="lastname"  required>
+                    <p>(required field *)</p>
                 </div>
                 <div class="form-group">
-                    <label for="name">Street Address: </label>
-                    <input type="text" class="form-control" id="name">
+                    <label for="address">Street Address: </label>
+                    <input type="text" class="form-control" id="address" name="address">
                 </div>
                 <div class="form-group">
-                    <label for="name">City: </label>
-                    <input type="text" class="form-control" id="name">
+                    <label for="city">City: </label>
+                    <input type="text" class="form-control" id="city" name="city">
                 </div>
                 <div class="form-group">
-                    <label for="name">Zip Code: </label>
-                    <input type="text" class="form-control" id="name">
+                    <label for="zipcode">Zip Code: </label>
+                    <input type="text" class="form-control" id="zipcode" name="zipcode">
                 </div>
                 <div class="form-group">
-                    <label for="name">Birth Date: </label>
-                    <input type="date" class="form-control" id="name">
+                    <label for="birth">Birth Date: </label>
+                    <input type="date" class="form-control" id="birth" name="birth" required>
                 </div>
                 <div class="form-group">
-                    <label for="name">Gender: </label>
+                    <label for="gender">Gender: </label>
                     <label>
                         Female
-                        <input type="checkbox" name="gender1" value="F">
+                        <input type="radio" name="gender" value="female">
                     </label>
                     <label>
                         Male
-                        <input type="checkbox" name="gender2" value="M">
+                        <input type="radio" name="gender" value="male">
                     </label>
                     <label>
                         Other
-                        <input type="checkbox" name="gender3" value="O">
+                        <input type="radio" name="gender" value="other">
                     </label>
                 </div>
                 <div class="form-group">
                     <label for="name">Grade: </label>
                     <label>
                         Pre-school
-                        <input type="checkbox" name="gender1" value="F">
+                        <input type="radio" name="grade" value="preschool">
                     </label>
                     <label>
                         1st
-                        <input type="checkbox" name="grade1" value="1">
+                        <input type="radio" name="grade" value="1">
                     </label>
                     <label>
                         2nd
-                        <input type="checkbox" name="grade2" value="2">
+                        <input type="radio" name="grade" value="2">
                     </label>
                     <label>
                         3rd
-                        <input type="checkbox" name="grade3" value="3">
+                        <input type="radio" name="grade" value="3">
                     </label>
                     <label>
                         4th
-                        <input type="checkbox" name="grade4" value="4">
+                        <input type="radio" name="grade" value="4">
                     </label>
                     <label>
                         5th
-                        <input type="checkbox" name="grade5" value="5">
+                        <input type="radio" name="grade" value="5">
                     </label>
                 </div>
                 </fieldset>
-                <fieldset>
+                <fieldset class="radio">
                     <div class="form-group">
                         <legend>Which elementary school do you live near?</legend>
                         <label for="name">Closest School: </label>
                         <label>
                             AJ Katzenmaier
-                            <input type="checkbox" name="gender1" value="F">
+                            <input type="radio" name="school" value="AJ Katzenmaier">
                         </label>
                         <label>
                             Marjorie
-                            <input type="checkbox" name="grade3" value="3">
+                            <input type="radio" name="school" value="Marjorie3">
                         </label>
                         <label>
                             Greenbay
-                            <input type="checkbox" name="grade1" value="1">
+                            <input type="radio" name="school" value="Greenbay">
                         </label>
                         <label>
                             North Elementary
-                            <input type="checkbox" name="grade4" value="4">
+                            <input type="radio" name="school" value="North Elementary">
                         </label>
                         <label>
                             Howard A Yeager
-                            <input type="checkbox" name="grade2" value="2">
+                            <input type="radio" name="school" value="Howard A Yeager">
                         </label>
                         <label>
                             South Elementary
-                            <input type="checkbox" name="grade5" value="5">
+                            <input type="radio" name="school" value="South Elementary">
                         </label>
                     </div>
                 </fieldset>
-                <fieldset>
+                <fieldset class="radio2">
                     <div class="form-group">
                         <legend>What position(s) do you normally play?</legend>
                         <label>
                             Forward
-                            <input type="checkbox" name="gender1" value="F">
+                            <input type="radio" name="position" value="Foward">
                         </label>
                         <label>
                             Midfield
-                            <input type="checkbox" name="grade1" value="1">
+                            <input type="radio" name="position" value="Midfield">
                         </label>
                         <label>
                             Defense
-                            <input type="checkbox" name="grade2" value="2">
+                            <input type="radio" name="position" value="Defense">
                         </label>
                         <label>
                             Goalkeeper
-                            <input type="checkbox" name="grade3" value="3">
+                            <input type="radio" name="position" value="Goalkeeper">
                         </label>
                     </div>
                 </fieldset>
@@ -159,31 +161,31 @@
                         <legend>Uniform Size: </legend>
                         <label>
                             Youth Small
-                            <input type="checkbox" name="size1" value="YS">
+                            <input type="radio" name="size" value="YS">
                         </label>
                         <label>
                             Medium
-                            <input type="checkbox" name="size2" value="M">
+                            <input type="radio" name="size" value="M">
                         </label>
                         <label>
                             Youth Medium
-                            <input type="checkbox" name="size3" value="YM">
+                            <input type="radio" name="size" value="YM">
                         </label>
                         <label>
                             Large
-                            <input type="checkbox" name="size4" value="L">
+                            <input type="radio" name="size" value="L">
                         </label>
                         <label>
                             Youth Large
-                            <input type="checkbox" name="size5" value="YL">
+                            <input type="radio" name="size" value="YL">
                         </label>
                         <label>
                             Extra-Large
-                            <input type="checkbox" name="size6" value="EL">
+                            <input type="radio" name="size" value="EL">
                         </label>
                         <label>
                             Small
-                            <input type="checkbox" name="size7" value="S">
+                            <input type="radio" name="size" value="S">
                         </label>
                     </div>
                 </fieldset>
@@ -197,11 +199,13 @@
                     </div>
                     <div class="form-group">
                         <label for="name">Parent/Guardian Signature: </label>
-                        <input type="text" class="form-control" id="name">
+                        <input type="text" class="form-control" id="signature" name="signature" required>
+                        <p>(required field *)</p>
                     </div>
                     <div class="form-group">
                         <label for="name">Date: </label>
-                        <input type="date" class="form-control" id="name">
+                        <input type="date" class="form-control" id="date" name="date" required>
+                        <p>(required field *)</p>
                     </div>
                 </fieldset>
                 <input class="register-btn" type="submit" value="Send">
