@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #333;
+    background-color: #fff;
+}
+
+nav {
+    padding: 5px 20px;
+  }
+.menu {
+    list-style-type: none;
+}
+li{
+    display: inline-block;
+}
+li a {
+    border: solid 0.1rem black;
+    text-decoration: none;
+    background-color: #5FA199;
+    color: #333;
+    margin-left: 0.3rem;
+    padding: 0.3rem 2rem;
+    position: relative;
+    left: 2rem;
+    bottom: 0.6rem;
+    font-weight: bold;
+}
+li a[href="#"] {
+    color: black;
+    background-color: #F8E12E;
+}
+li a:hover {
+text-decoration: underline;
+}
+
+.banner{
+    width: 100%;
+}
+
+.title{
+    text-align: center;
+    border: solid 0.1rem black;
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+    padding: 1rem;
+}
+
+.logo {
+    width: 15%;
+    margin: 2rem;
+}
+
+section {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 5rem;
+    padding-left: 5rem;
+    width: 75%;
+}
+
+section p {
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+}
+
+.list-none {
+    list-style-type: none!important;
+    padding-left: 0;
+}
+
+.list-decimal {
+    list-style-type: decimal!important;
+    padding-left: 0;
+}
+
+.list-lower-alpha {
+    list-style-type: lower-alpha!important;
+}
+
+.list-circle {
+    list-style-type: circle!important;
+    padding-left: 0;
+}
